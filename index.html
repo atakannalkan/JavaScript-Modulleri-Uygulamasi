@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Atakan Alkan</title>
+    <style>
+        .contanier2{
+            width: 90%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-danger">
+        <div class="contanier">
+            <a class="navbar-brand" href="#">Oem PC Topla</a>
+        </div>
+    </nav>
+    <div class="contanier2 mt-5">
+        <div class="card">
+            <div class="card-body">
+                <form>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input id="name" class="form-control" type="text" placeholder="Ürün">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input id="fiyat" class="form-control" type="text" placeholder="Fiyat">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input id="marka" class="form-control" type="text" placeholder="Marka">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-sm addbtn">
+                        <i class="fas fa-plus"></i> Ekle
+                    </button>
+
+                    <button type="submit" class="btn btn-warning btn-sm savebtn">
+                        <i class="far fa-edit"></i> Kaydet
+                    </button>
+
+                    <button type="submit" class="btn btn-danger btn-sm deletebtn">
+                        <i class="fas fa-times"></i> Sil
+                    </button>
+
+                    <button type="submit" class="btn btn-primary btn-sm closebtn">
+                        <i class="fas fa-arrow-circle-left"></i> İptal
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="card mt-3 ml-auto mr-auto">
+            <table class="table">
+                <tbody id="item-list">
+                    <tr>
+                        <td>1</td>
+                        <td>Monitör</td>
+                        <td>100 $</td>
+                        <td class="text-right">
+                            <button type="submit" class="btn btn-warning btn-sm">
+                            <i class="far fa-edit"></i> Düzenle
+                        </button>
+                    </td>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>Monitör</td>
+                        <td>100 $</td>
+                        <td class="text-right">
+                            <button type="submit" class="btn btn-warning btn-sm">
+                            <i class="far fa-edit"></i> Düzenle
+                        </button>
+                    </td>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>Monitör</td>
+                        <td>100 $</td>
+                        <td class="text-right">
+                            <button type="submit" class="btn btn-warning btn-sm">
+                            <i class="far fa-edit"></i> Düzenle
+                        </button>
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-footer text-right">
+                <p>Toplam (TL) <strong id="tl">0 TL</strong></p>
+                <p>Toplam ($) <strong id="dolar">0 $</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
